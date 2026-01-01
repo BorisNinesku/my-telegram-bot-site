@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route('')
+@app.route('/')
 def index():
     return 'h1Привет, это мой сайт!h1'
 
