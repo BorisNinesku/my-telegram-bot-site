@@ -4,7 +4,7 @@ import os
 app = Flask(__name__)
 
 @app.route('')
-def index()
+def index():
     return 'h1Привет, это мой сайт!h1'
 
 if __name__ == '__main__'
